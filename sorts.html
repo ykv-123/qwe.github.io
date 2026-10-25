@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0c0b10">
+    <meta name="description" content="JobCompass — каталог профессий и направлений: IT, дизайн, медицина, бизнес, образование.">
+    <title>JobCompass — Профессии</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bar"></div>
+
+    <!-- Начало Top100 (код счетчика) -->
+    <!-- Top100 (Kraken) Counter -->
+    <script>
+        (function (w, d, c) {
+        (w[c] = w[c] || []).push(function() {
+            var options = {
+                project: 7753076,
+            };
+            try {
+                w.top100Counter = new top100(options);
+            } catch(e) { }
+        });
+        var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src =
+        (d.location.protocol == "https:" ? "https:" : "http:") +
+        "//st.top100.ru/top100/top100.js";
+
+        if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+    })(window, document, "_top100q");
+    </script>
+    <noscript>
+      <img src="//counter.rambler.ru/top100.cnt?pid=7753076" alt="Топ-100" />
+    </noscript>
+    <!-- END Top100 (Kraken) Counter -->
+    <!-- Конец Top100 (код счетчика) -->
+
+    <!-- Начало Top.Mail.Ru (код счетчика) -->
+    <!-- Top.Mail.Ru counter -->
+    <script type="text/javascript">
+    var _tmr = window._tmr || (window._tmr = []);
+    _tmr.push({id: "3805673", type: "pageView", start: (new Date()).getTime()});
+    (function (d, w, id) {
+      if (d.getElementById(id)) return;
+      var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+      ts.src = "https://top-fwz1.mail.ru/js/code.js";
+      var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+      if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+    })(document, window, "tmr-code");
+    </script>
+    <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3805673;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+    <!-- /Top.Mail.Ru counter -->
+    <!-- Конец Top.Mail.Ru (код счетчика) -->
+
+    <header class="top">
+        <div class="wrap top-inner">
+            <a class="logo" href="index.html">JobCompass<span>Осознанный выбор</span></a>
+            <nav class="menu" aria-label="Основная навигация">
+                <a href="index.html" data-job-block="sorts::menu::main">Главная</a>
+                <a href="sorts.html" aria-current="page" data-job-block="sorts::menu::sorts">Профессии</a>
+                <a href="brewing.html" data-job-block="sorts::menu::brewing">Путь</a>
+                <a href="history.html" data-job-block="sorts::menu::history">Философия</a>
+                <a href="contact.html" data-job-block="sorts::menu::contact">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap content">
+        <p class="kicker">Каталог</p>
+        <h1>Направления и профессии</h1>
+        <p class="lede" style="margin-bottom:40px">
+            Каждое направление описано с учётом реального спроса, навыков
+            и перспектив. Без лишнего шума — только суть.
+        </p>
+
+        <div class="catalog">
+            <div class="item" data-job-block="sorts::catalog::item-it">
+                <span class="item-label">Технологии</span>
+                <div>
+                    <h2>IT и разработка</h2>
+                    <p>Программирование, аналитика данных, DevOps, продукт и тестирование.</p>
+                    <strong>Для: тех, кто любит логику и быстрый рост</strong>
+                </div>
+            </div>
+            <div class="item" data-job-block="sorts::catalog::item-design">
+                <span class="item-label">Творчество</span>
+                <div>
+                    <h2>Дизайн и медиа</h2>
+                    <p>UX/UI, графический дизайн, контент, видеопродакшн и маркетинг.</p>
+                    <strong>Для: визуалов и коммуникаторов</strong>
+                </div>
+            </div>
+            <div class="item" data-job-block="sorts::catalog::item-health">
+                <span class="item-label">Здоровье</span>
+                <div>
+                    <h2>Медицина и уход</h2>
+                    <p>Клиническая практика, фармация, психология и wellness-индустрия.</p>
+                    <strong>Для: тех, кто хочет помогать людям</strong>
+                </div>
+            </div>
+            <div class="item" data-job-block="sorts::catalog::item-business">
+                <span class="item-label">Бизнес</span>
+                <div>
+                    <h2>Предпринимательство и управление</h2>
+                    <p>Менеджмент, продажи, финансы, HR и запуск собственных проектов.</p>
+                    <strong>Для: амбициозных и системных</strong>
+                </div>
+            </div>
+            <div class="item" data-job-block="sorts::catalog::item-edu">
+                <span class="item-label">Знания</span>
+                <div>
+                    <h2>Образование и наука</h2>
+                    <p>Преподавание, исследования, EdTech и научная коммуникация.</p>
+                    <strong>Для: тех, кто любит делиться знаниями</strong>
+                </div>
+            </div>
+            <div class="item" data-job-block="sorts::catalog::item-help">
+                <span class="item-label">Помощь</span>
+                <div>
+                    <h2>Не знаете, с чего начать?</h2>
+                    <p>Пройдите короткий тест — мы предложим направление под ваши интересы.</p>
+                </div>
+                <a class="item-link" href="#picker"
+                   data-job-block="sorts::catalog::item-help::link-picker">К подбору →</a>
+            </div>
+        </div>
+
+        <div class="picker" id="picker">
+            <div class="picker-head">
+                <h2>Какая профессия вам ближе?</h2>
+                <p>Три вопроса — одна рекомендация.</p>
+            </div>
+
+            <form id="career-quiz" data-job-block="sorts::quiz::form">
+                <div class="q-block">
+                    <p>Что вам интереснее всего?</p>
+                    <div class="q-opts">
+                        <label><input type="radio" name="interest" value="logic" checked><span>Логика и системы</span></label>
+                        <label><input type="radio" name="interest" value="people"><span>Люди и общение</span></label>
+                        <label><input type="radio" name="interest" value="creative"><span>Креатив и визуал</span></label>
+                        <label><input type="radio" name="interest" value="care"><span>Помощь и забота</span></label>
+                    </div>
+                </div>
+
+                <div class="q-block">
+                    <p>Какая цель сейчас важнее?</p>
+                    <div class="q-opts">
+                        <label><input type="radio" name="goal" value="income" checked><span>Быстрый рост дохода</span></label>
+                        <label><input type="radio" name="goal" value="freedom"><span>Свобода и гибкость</span></label>
+                        <label><input type="radio" name="goal" value="stability"><span>Стабильность и статус</span></label>
+                        <label><input type="radio" name="goal" value="meaning"><span>Смысл и влияние</span></label>
+                    </div>
+                </div>
+
+                <div class="q-block">
+                    <p>Какой формат работы предпочитаете?</p>
+                    <div class="q-opts">
+                        <label><input type="radio" name="format" value="office" checked><span>Офис / команда</span></label>
+                        <label><input type="radio" name="format" value="remote"><span>Удалёнка</span></label>
+                        <label><input type="radio" name="format" value="own"><span>Свой проект</span></label>
+                    </div>
+                </div>
+
+                <button class="cta q-go" type="submit"
+                        data-job-block="sorts::quiz::form::quiz-submit">Подобрать направление</button>
+                <div class="q-out" id="quiz-result" hidden
+                     data-job-block="sorts::quiz::result"></div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bot">
+        <div class="wrap bot-inner">
+            <div>
+                <a class="logo" href="index.html">JobCompass<span>Осознанный выбор</span></a>
+                <p style="margin-top:10px">© JobCompass, 2026. Карьера, которой доверяете.</p>
+            </div>
+            <div>
+                <p>Честный разбор. Реальные перспективы.</p>
+                <div class="counter">
+                    <!-- Начало Top100 (значок) -->
+                    <a href="https://top100.rambler.ru/navi/?resourceId=7753076" target="_blank" rel="nofollow noopener" aria-label="Рамблер ТОП100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" aria-hidden="true" focusable="false">
+                            <rect x=".5" y=".5" width="87" height="30" rx="4" fill="#14131a" stroke="#c4a8e8" stroke-opacity=".45"/>
+                            <text x="8" y="13" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#f2f0f7" letter-spacing=".6">РАМБЛЕР</text>
+                            <text x="8" y="24" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#c4a8e8" letter-spacing=".6">ТОП100</text>
+                            <circle cx="74" cy="15.5" r="5" fill="none" stroke="#c4a8e8" stroke-width="1.5"/>
+                            <circle cx="74" cy="15.5" r="1.8" fill="#c4a8e8"/>
+                        </svg>
+                    </a>
+                    <!-- Конец Top100 (значок) -->
+
+                    <!-- Начало LiveInternet (значок и код счетчика) -->
+                    <!--LiveInternet counter--><a href="https://www.liveinternet.ru/click"
+                    target="_blank"><img id="licnt4EA2" width="88" height="31" style="border:0"
+                    title="LiveInternet: показано число просмотров и посетителей за 24 часа"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                    alt=""/></a><script>(function(d,s){d.getElementById("licnt4EA2").src=
+                    "https://counter.yadro.ru/hit?t52.6;r"+escape(d.referrer)+
+                    ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                    (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                    ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+                    (document,screen)</script><!--/LiveInternet-->
+                    <!-- Конец LiveInternet (значок и код счетчика) -->
+
+                    <!-- Начало Top.Mail.Ru (значок) -->
+                    <a href="https://top.mail.ru/" target="_blank" rel="nofollow noopener" aria-label="Top.Mail.Ru">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" aria-hidden="true" focusable="false">
+                            <rect x=".5" y=".5" width="87" height="30" rx="4" fill="#14131a" stroke="#c4a8e8" stroke-opacity=".45"/>
+                            <text x="8" y="13" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#f2f0f7" letter-spacing=".6">TOP.MAIL</text>
+                            <text x="8" y="24" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#c4a8e8" letter-spacing=".6">СТАТИСТИКА</text>
+                            <rect x="70" y="16" width="3" height="6" rx=".5" fill="#c4a8e8"/>
+                            <rect x="75" y="11" width="3" height="11" rx=".5" fill="#c4a8e8"/>
+                            <rect x="80" y="7" width="3" height="15" rx=".5" fill="#c4a8e8"/>
+                        </svg>
+                    </a>
+                    <!-- Конец Top.Mail.Ru (значок) -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            var TMR_ID = "3805673";
+            var form = document.getElementById("career-quiz");
+            var resultBox = document.getElementById("quiz-result");
+
+            var products = {
+                income: {
+                    office:  { title: "Backend / Data Engineer", type: "IT и данные",
+                              text: "Высокий спрос, понятный карьерный трек и сильный рост зарплаты. Нужны логика, усидчивость и желание разбираться в системах.",
+                              use: "Начните с Python или SQL, соберите 2–3 проекта и выходите на стажировку." },
+                    remote:  { title: "Product Analyst (удалёнка)", type: "Аналитика",
+                              text: "Работа с метриками и продуктом. Можно расти в удалённом формате и в международных командах.",
+                              use: "Изучите SQL + Tableau/Power BI, разберите кейсы продуктовых компаний." },
+                    own:     { title: "Свой SaaS / микросервис", type: "Предпринимательство в IT",
+                              text: "Создание небольшого продукта под конкретную боль. Высокий риск, но максимальная свобода.",
+                              use: "Сначала найдите боль, потом MVP, потом первых платящих пользователей." }
+                },
+                freedom: {
+                    office:  { title: "UX/UI-дизайнер", type: "Дизайн продукта",
+                              text: "Сочетание креатива и логики. Можно работать в студии или на удалёнке.",
+                              use: "Соберите портфолио из 3–5 кейсов и учитесь исследованиям пользователей." },
+                    remote:  { title: "Контент-креатор / SMM", type: "Медиа",
+                              text: "Гибкий график, работа с брендами и аудиторией. Хорошо подходит для удалёнки.",
+                              use: "Ведите свой канал, учитесь сторителлингу и аналитике контента." },
+                    own:     { title: "Студия / агентство", type: "Свой проект в креативе",
+                              text: "Запуск небольшого дизайн- или продакшн-бюро. Полная ответственность и свобода.",
+                              use: "Начните с фриланса, соберите постоянных клиентов, потом масштабируйте." }
+                },
+                stability: {
+                    office:  { title: "Финансовый аналитик / аудит", type: "Финансы и управление",
+                              text: "Стабильный трек, понятные ступени роста и уважаемый статус в компании.",
+                              use: "Получите базовое финансовое образование или сертификацию и идите в крупную компанию." },
+                    remote:  { title: "HR Business Partner", type: "Управление людьми",
+                              text: "Работа на стыке бизнеса и людей. Можно расти до директора по персоналу.",
+                              use: "Начните с рекрутмента или HR-generalist, развивайте бизнес-мышление." },
+                    own:     { title: "Консалтинг / своя практика", type: "Экспертный бизнес",
+                              text: "Высокий статус и возможность работать с крупными клиентами.",
+                              use: "Сначала наберите экспертизу в найме, потом выходите на рынок как эксперт." }
+                },
+                meaning: {
+                    office:  { title: "Психолог / коуч", type: "Помощь людям",
+                              text: "Глубокий смысл, работа один на один. Можно совмещать с онлайн-форматом.",
+                              use: "Получите профильное образование и практику под супервизией." },
+                    remote:  { title: "Преподаватель / методист", type: "Образование",
+                              text: "Передача знаний и влияние на поколения. Можно работать в школе, вузе или EdTech.",
+                              use: "Начните с репетиторства или методической работы, собирайте обратную связь." },
+                    own:     { title: "Социальный / образовательный проект", type: "Свой вклад",
+                              text: "Запуск инициативы, которая меняет жизни. Смысл важнее быстрой прибыли.",
+                              use: "Определите проблему, найдите партнёров и начните с небольшого пилота." }
+                }
+            };
+
+            var interestNotes = {
+                logic: "Вам близка системность — выбирайте направления, где ценят структуру и глубину.",
+                people: "Вам важны люди — ищите роли с коммуникацией, наставничеством или продажами.",
+                creative: "Креатив и визуал — ваш сильный козырь. Портфолио будет решать больше, чем диплом.",
+                care: "Помощь и забота — ядро вашей мотивации. Ищите профессии с реальным влиянием на других."
+            };
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                // Начало Top100 (событие quiz_submit)
+                if (window.top100Counter) {
+                    window.top100Counter.trackEvent("quiz_submit");
+                }
+                // Конец Top100 (событие quiz_submit)
+
+                // Начало Top.Mail.Ru (цель quiz_submit)
+                (window._tmr = window._tmr || []).push({ id: TMR_ID, type: "reachGoal", goal: "quiz_submit" });
+                // Конец Top.Mail.Ru (цель quiz_submit)
+
+                var interest = form.querySelector('input[name="interest"]:checked').value;
+                var goal = form.querySelector('input[name="goal"]:checked').value;
+                var format = form.querySelector('input[name="format"]:checked').value;
+                var rec = products[goal][format];
+
+                resultBox.innerHTML =
+                    "<h3>" + rec.title + "</h3>" +
+                    "<span class='badge'>" + rec.type + "</span>" +
+                    "<p>" + rec.text + "</p>" +
+                    "<p><strong>Как начать:</strong> " + rec.use + "</p>" +
+                    "<p>" + interestNotes[interest] + "</p>";
+
+                resultBox.hidden = false;
+                resultBox.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            });
+        })();
+    </script>
+</body>
+</html>
