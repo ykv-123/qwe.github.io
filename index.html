@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0c0b10">
-    <meta name="description" content="Aura Cosmetica — уход за кожей, авторские формулы и философия осознанной красоты.">
-    <title>Aura Cosmetica — Главная</title>
+    <meta name="description" content="JobCompass — осознанный выбор профессии, направления и карьерный путь.">
+    <title>JobCompass — Главная</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -14,15 +14,64 @@
 <body>
     <div class="bar"></div>
 
+    <!-- Начало Top100 (код счетчика) -->
+    <!-- Top100 (Kraken) Counter -->
+    <script>
+        (function (w, d, c) {
+        (w[c] = w[c] || []).push(function() {
+            var options = {
+                project: 7753076,
+            };
+            try {
+                w.top100Counter = new top100(options);
+            } catch(e) { }
+        });
+        var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src =
+        (d.location.protocol == "https:" ? "https:" : "http:") +
+        "//st.top100.ru/top100/top100.js";
+
+        if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+    })(window, document, "_top100q");
+    </script>
+    <noscript>
+      <img src="//counter.rambler.ru/top100.cnt?pid=7753076" alt="Топ-100" />
+    </noscript>
+    <!-- END Top100 (Kraken) Counter -->
+    <!-- Конец Top100 (код счетчика) -->
+
+    <!-- Начало Top.Mail.Ru (код счетчика) -->
+    <!-- Top.Mail.Ru counter -->
+    <script type="text/javascript">
+    var _tmr = window._tmr || (window._tmr = []);
+    _tmr.push({id: "3805673", type: "pageView", start: (new Date()).getTime()});
+    (function (d, w, id) {
+      if (d.getElementById(id)) return;
+      var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+      ts.src = "https://top-fwz1.mail.ru/js/code.js";
+      var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+      if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+    })(document, window, "tmr-code");
+    </script>
+    <noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3805673;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript>
+    <!-- /Top.Mail.Ru counter -->
+    <!-- Конец Top.Mail.Ru (код счетчика) -->
+
     <header class="top">
         <div class="wrap top-inner">
-            <a class="logo" href="index.html">Aura Cosmetica<span>Осознанная красота</span></a>
+            <a class="logo" href="index.html">JobCompass<span>Осознанный выбор</span></a>
             <nav class="menu" aria-label="Основная навигация">
-                <a href="index.html" aria-current="page">Главная</a>
-                <a href="sorts.html">Средства</a>
-                <a href="brewing.html">Ритуал</a>
-                <a href="history.html">Философия</a>
-                <a href="contact.html">Контакты</a>
+                <a href="index.html" aria-current="page" data-job-block="main::menu::main">Главная</a>
+                <a href="sorts.html" data-job-block="main::menu::sorts">Профессии</a>
+                <a href="brewing.html" data-job-block="main::menu::brewing">Путь</a>
+                <a href="history.html" data-job-block="main::menu::history">Философия</a>
+                <a href="contact.html" data-job-block="main::menu::contact">Контакты</a>
             </nav>
         </div>
     </header>
@@ -30,58 +79,111 @@
     <main class="wrap content">
         <div class="split">
             <div class="split-text">
-                <p class="kicker">Уход как искусство</p>
-                <h1>Красота начинается с заботы о себе</h1>
+                <p class="kicker">Карьера как осознанный выбор</p>
+                <h1>Профессия начинается с понимания себя</h1>
                 <p class="lede">
-                    Aura Cosmetica — бренд авторской косметики, в которой современная
-                    дерматология встречается с бережными формулами и вниманием к деталям.
+                    JobCompass — пространство, где современный рынок труда
+                    встречается с вашими сильными сторонами, ценностями и реальными возможностями.
                 </p>
-                <a class="cta" href="sorts.html">Открыть каталог →</a>
+                <a class="cta" href="sorts.html"
+                   data-job-block="main::hero::sorts::hero-button">Открыть направления →</a>
             </div>
             <div class="feat-list">
-                <div class="feat">
+                <div class="feat" data-job-block="main::features::sorts">
                     <span class="feat-num">01</span>
                     <div>
-                        <h3>Средства</h3>
-                        <p>Сыворотки, кремы и тоники для разных типов кожи.</p>
-                        <a href="sorts.html">Смотреть →</a>
+                        <h3>Профессии</h3>
+                        <p>Актуальные направления: IT, дизайн, медицина, бизнес и другие.</p>
+                        <a href="sorts.html"
+                           data-job-block="main::features::sorts::feat-sorts">Смотреть →</a>
                     </div>
                 </div>
-                <div class="feat">
+                <div class="feat" data-job-block="main::features::brewing">
                     <span class="feat-num">02</span>
                     <div>
-                        <h3>Ритуал</h3>
-                        <p>Порядок нанесения и сочетания активов.</p>
-                        <a href="brewing.html">Узнать →</a>
+                        <h3>Путь</h3>
+                        <p>Пошаговый алгоритм выбора и построения карьеры.</p>
+                        <a href="brewing.html"
+                           data-job-block="main::features::brewing::feat-brewing">Узнать →</a>
                     </div>
                 </div>
-                <div class="feat">
+                <div class="feat" data-job-block="main::features::history">
                     <span class="feat-num">03</span>
                     <div>
                         <h3>Философия</h3>
-                        <p>Как создаётся косметика и во что мы верим.</p>
-                        <a href="history.html">Читать →</a>
+                        <p>Во что мы верим и как помогаем принимать решения.</p>
+                        <a href="history.html"
+                           data-job-block="main::features::history::feat-history">Читать →</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <p class="pull">Хороший уход начинается с уважения к собственной коже.</p>
+        <p class="pull">Хороший выбор профессии начинается с уважения к своим интересам и возможностям.</p>
     </main>
 
     <footer class="bot">
         <div class="wrap bot-inner">
             <div>
-                <a class="logo" href="index.html">Aura Cosmetica<span>Осознанная красота</span></a>
-                <p style="margin-top:10px">© Aura Cosmetica, 2026. Красота, которой доверяете.</p>
+                <a class="logo" href="index.html">JobCompass<span>Осознанный выбор</span></a>
+                <p style="margin-top:10px">© JobCompass, 2026. Карьера, которой доверяете.</p>
             </div>
             <div>
-                <p>Чистые формулы. Честные ингредиенты.</p>
+                <p>Честный разбор. Реальные перспективы.</p>
                 <div class="counter">
-                    <!-- место для счетчика -->
+                    <!-- Начало Top100 (значок) -->
+                    <a href="https://top100.rambler.ru/navi/?resourceId=7753076" target="_blank" rel="nofollow noopener" aria-label="Рамблер ТОП100">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" aria-hidden="true" focusable="false">
+                            <rect x=".5" y=".5" width="87" height="30" rx="4" fill="#14131a" stroke="#c4a8e8" stroke-opacity=".45"/>
+                            <text x="8" y="13" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#f2f0f7" letter-spacing=".6">РАМБЛЕР</text>
+                            <text x="8" y="24" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#c4a8e8" letter-spacing=".6">ТОП100</text>
+                            <circle cx="74" cy="15.5" r="5" fill="none" stroke="#c4a8e8" stroke-width="1.5"/>
+                            <circle cx="74" cy="15.5" r="1.8" fill="#c4a8e8"/>
+                        </svg>
+                    </a>
+                    <!-- Конец Top100 (значок) -->
+
+                    <!-- Начало LiveInternet (значок и код счетчика) -->
+                    <!--LiveInternet counter--><a href="https://www.liveinternet.ru/click"
+                    target="_blank"><img id="licnt4EA2" width="88" height="31" style="border:0"
+                    title="LiveInternet: показано число просмотров и посетителей за 24 часа"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                    alt=""/></a><script>(function(d,s){d.getElementById("licnt4EA2").src=
+                    "https://counter.yadro.ru/hit?t52.6;r"+escape(d.referrer)+
+                    ((typeof(s)=="undefined")?"":";s"+s.width+"*"+s.height+"*"+
+                    (s.colorDepth?s.colorDepth:s.pixelDepth))+";u"+escape(d.URL)+
+                    ";h"+escape(d.title.substring(0,150))+";"+Math.random()})
+                    (document,screen)</script><!--/LiveInternet-->
+                    <!-- Конец LiveInternet (значок и код счетчика) -->
+
+                    <!-- Начало Top.Mail.Ru (значок) -->
+                    <a href="https://top.mail.ru/" target="_blank" rel="nofollow noopener" aria-label="Top.Mail.Ru">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" aria-hidden="true" focusable="false">
+                            <rect x=".5" y=".5" width="87" height="30" rx="4" fill="#14131a" stroke="#c4a8e8" stroke-opacity=".45"/>
+                            <text x="8" y="13" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#f2f0f7" letter-spacing=".6">TOP.MAIL</text>
+                            <text x="8" y="24" font-family="'Space Grotesk', Inter, Arial, sans-serif" font-size="8" font-weight="700" fill="#c4a8e8" letter-spacing=".6">СТАТИСТИКА</text>
+                            <rect x="70" y="16" width="3" height="6" rx=".5" fill="#c4a8e8"/>
+                            <rect x="75" y="11" width="3" height="11" rx=".5" fill="#c4a8e8"/>
+                            <rect x="80" y="7" width="3" height="15" rx=".5" fill="#c4a8e8"/>
+                        </svg>
+                    </a>
+                    <!-- Конец Top.Mail.Ru (значок) -->
                 </div>
             </div>
         </div>
     </footer>
+
+    <!-- Начало Top.Mail.Ru (цель hero_click) -->
+    <script>
+    (function () {
+        var TMR_ID = "3805673";
+        document.addEventListener("click", function (e) {
+            var el = e.target.closest("[data-job-block='main::hero::sorts::hero-button']");
+            if (!el) return;
+            (window._tmr = window._tmr || []).push({ id: TMR_ID, type: "reachGoal", goal: "hero_click" });
+        });
+    })();
+    </script>
+    <!-- Конец Top.Mail.Ru (цель hero_click) -->
 </body>
 </html>
